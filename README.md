@@ -18,21 +18,6 @@ Airbnb is an immensely popular global platform that was established in 2008. It 
 ## Data Model
 ![Airbnb drawio](https://github.com/karlyndiary/Airbnb-Tableau-Dashboard/assets/116041695/98fba150-dd43-4057-b950-d93ec33ec8ad)
 
-### Steps to import data as a folder
-1. Get data -> More -> All -> Folder -> Connect -> Path leading to the folder dataset -> Click ok
-2. Click on transform data -> Duplicate the file -> Click on Binary to expand the dataset (Repeat the set for the no of datasets)
-
-### Pre-Processing
-- The neighbourhood dataset has the headers in the data fields -> select row 1 -> Transform tab -> Click Use first row as headers
-- Remove the license column as it is empty
-- Adding new columns: Extracting information from the name column
-    - bedrooms, beds, baths, reviews: Duplicate the name column ->
-        - Transform tab -> Extract -> Text between delimiters -> Rename the column [or]
-        - Transform tab -> Split column -> By Delimiter -> Rename the columns
-    - reviews - Repeat the same for the star as well
-- Check the data types
-- Remove nulls and blanks
-
 ## Dashboard
 ![NYD_page-0001](https://github.com/karlyndiary/New-York-AirBnB-Dashboard/assets/116041695/f02a5410-2598-4489-8de3-a062c72a2a13)
 ![NYD_page-0002](https://github.com/karlyndiary/New-York-AirBnB-Dashboard/assets/116041695/e8e0eed9-e8c0-483f-9b6b-7d11a96bf9d9)
